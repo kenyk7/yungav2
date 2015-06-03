@@ -1,0 +1,90 @@
+.blueimp-gallery > .prev,
+.blueimp-gallery > .next {
+  font-size: 30px;
+  border: none;
+  background: none;
+}
+.ui-pnotify-icon span {
+  margin-top: 5px;
+}
+.ui-pnotify-closer {
+  margin-left: .6em;
+  font-size: 1.1em;
+  position: relative;
+  top: -2px;
+}
+.panel-upload .panel-body {
+  padding: 7px !important;
+  background-image: url(../images/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.panel-upload .fileinput-preview {
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 3px 20px #777 inset;
+  background: #f0f0f0;
+}
+.panel-upload .fileinput {
+  margin-bottom: 5px;
+}
+.panel-upload .fileinput .thumbnail > img {
+  height: 100%;
+}
+.panel-default {
+  overflow: hidden;
+}
+.right-normal {
+  right: 10px !important;
+  opacity: 1 !important;
+}
+.btn-social {
+  position: absolute;
+  top: 7px;
+  right: -185px;
+  z-index: 9999;
+  transition: all .5s;
+}
+.btn-social a {
+  color: #fff !important;
+  border: none;
+  display: inline;
+}
+.btn-social a:hover,
+.btn-social a:focus {
+  opacity: 0.9;
+}
+.btn-social a.facebook {
+  background: #3b5998;
+}
+.btn-social a.facebook:hover,
+.btn-social a.facebook:focus {
+  background: #3b5998;
+}
+.btn-social a.twitter {
+  background: #00aced;
+}
+.btn-social a.twitter:hover,
+.btn-social a.twitter:focus {
+  background: #00aced;
+}
+.btn-social a.google-plus {
+  background: #dd4b39;
+}
+.btn-social a.google-plus:hover,
+.btn-social a.google-plus:focus {
+  background: #dd4b39;
+}
+.btn-social a.pinterest {
+  background: #cb2027;
+}
+.btn-social a.pinterest:hover,
+.btn-social a.pinterest:focus {
+  background: #cb2027;
+}
+.btn-social a.btn-social-close {
+  background: #111;
+}
+.facebook-page .fb-page {
+  display: inline-block;
+}
