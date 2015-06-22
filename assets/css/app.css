@@ -113,9 +113,9 @@
 .border-top3 {
   content: "";
   position: absolute;
-  bottom: -2px;
-  left: 12px;
-  right: 12px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   border-top: 3px solid #0088ff;
 }
 body {
@@ -140,9 +140,9 @@ h1 {
   background-image: url(../images/bg-1.jpg);
   background-size: cover;
   background-position: center;
-  padding: 130px 0 10px;
+  padding: 150px 0 10px;
   margin-bottom: 40px;
-  box-shadow: 0 3px 7px #777;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   position: relative;
 }
 .welcome-home h1 {
@@ -179,27 +179,10 @@ h1 {
 }
 .navbar {
   text-transform: uppercase;
-  background: none;
-  background-image: -webkit-linear-gradient(#000000, rgba(0, 0, 0, 0));
-  background-image: -o-linear-gradient(#000000, rgba(0, 0, 0, 0));
-  background-image: linear-gradient(#000000, rgba(0, 0, 0, 0));
-  box-shadow: none;
-}
-.navbar-default .navbar-brand {
-  color: #eee;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 .navbar-default .navbar-brand:hover {
   color: #0088ff;
-}
-.navbar-dark {
-  background: #252525;
-  background: rgba(0, 0, 0, 0.8);
-}
-.navbar-toggle {
-  background: #fff;
-}
-.navbar-toggle:hover {
-  background-color: #0088ff !important;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -209,7 +192,7 @@ h1 {
 .navbar-default .navbar-nav > .active > a:focus {
   background: none;
   position: relative;
-  color: #eee;
+  color: #333;
 }
 .navbar-default .navbar-nav > .open > a:before,
 .navbar-default .navbar-nav > .open > a:hover:before,
@@ -219,29 +202,34 @@ h1 {
 .navbar-default .navbar-nav > .active > a:focus:before {
   content: "";
   position: absolute;
-  bottom: -2px;
-  left: 12px;
-  right: 12px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   border-top: 3px solid #0088ff;
 }
 .navbar-default .navbar-nav > li > a {
   position: relative;
-  color: #eee;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #eee;
-}
-.navbar-default .navbar-nav > li > a:hover:before {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 12px;
-  right: 12px;
-  border-top: 3px solid #0088ff;
+  color: #0088ff;
 }
 .section-photo-content {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.content-photo-view {
   padding-left: 40px;
   padding-right: 40px;
+}
+@media (max-width: 767px) {
+  .photo-content {
+    margin: -5px !important;
+    margin-bottom: 25px !important;
+  }
+  .content-photo-view {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 @media (max-width: 560px) {
   .section-photo-content {
@@ -258,8 +246,16 @@ h1 {
     overflow: hidden;
     text-align: center;
   }
+  .photo-content {
+    margin-bottom: 25px !important;
+  }
+}
+@media (max-width: 480px) {
   .isotope-content .item {
     width: 100%;
+  }
+  .photo-content {
+    margin-bottom: 15px !important;
   }
 }
 .panel-footer,
@@ -276,10 +272,9 @@ h1 {
 }
 .photo-content {
   position: relative;
-  margin: -4px;
-  margin-bottom: 25px;
+  margin: 0px;
+  margin-bottom: 30px;
   overflow: hidden;
-  box-shadow: 0 3px 12px #777;
 }
 .photo-content:hover .photo-header {
   opacity: 1;
@@ -375,10 +370,10 @@ h1 {
   color: #0088ff;
 }
 #footer-page {
-  padding: 20px 0;
-  background: #111;
+  margin-top: 10px;
+  padding: 30px 0;
+  background: #121212;
   color: #999;
-  box-shadow: 0 -2px 7px #777777;
 }
 .social-footer {
   position: absolute;

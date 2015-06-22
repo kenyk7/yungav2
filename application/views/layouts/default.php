@@ -4,7 +4,7 @@
   <base href="<?php echo base_url() ?>">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   <title><?php echo $this->layout->getTitle(); ?></title>
   <!-- meta data -->
   <meta name="author" content="Keny Romero">
@@ -50,7 +50,7 @@
 </head>
 <body>
 <header>
-<nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid"><!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

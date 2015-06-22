@@ -6,7 +6,7 @@
 
 <section>
 <div class="container-fluid">
-	<div class="col-lg-12 item">
+	<div class="content-photo-view item">
       <div class="panel panel-default wow slideInUp">
       	<div class="panel-heading">
       	  <div class="pull-left heading-photo-data">

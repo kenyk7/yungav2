@@ -12,9 +12,9 @@
   <div class="row isotope-content">
   
     <?php foreach ($results as $data) { ?>
-    <div class="col-lg-3 col-md-4 col-xs-6 item ">
+    <div class="col-md-4 col-xs-6 item ">
       <div class="photo-content wow slideInUp">
-        <div class="photo-header">
+        <div class="photo-header hidden-xxs">
           <h4> <i class="fa fa-user"></i> Keny Romero</h4>
         </div>
 
@@ -28,7 +28,7 @@
         <a href="<?php echo base_url() ?>photo/<?php echo  $data->tokenId?>" class="btn-nex-tab"><i class="fa fa-external-link"></i></a>
 
         <div class="photo-footer">
-          <div class="photo-date">
+          <div class="photo-date hidden-xxs">
             <time><i class="fa fa-calendar"></i> <?php echo date_convert($data->imageDate); ?></time>
           </div>
 
