@@ -1,6 +1,6 @@
 <header class="welcome-home">
   <div class="bg-3d">
-      <img alt="background" src="<?php echo base_url(); ?>assets/images/bg-1.jpg" />
+      <img alt="background" src="<?php echo base_url(); ?>assets/images/bg-3d.jpg" />
       <img alt="effecto-1" src="<?php echo base_url(); ?>assets/images/effect1.png" />
       <img alt="effecto-2" src="<?php echo base_url(); ?>assets/images/effect2.png" />
       <img alt="effecto-nubes" src="<?php echo base_url(); ?>assets/images/nubes.png" />
