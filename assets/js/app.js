@@ -43,15 +43,6 @@ $(function() {
         border: "2px solid #ddd"
       });
   });
-  // photo indiviadual
-  $('.figure-center img').okzoom({
-      width: 250,
-      height: 250,
-      round: true,
-      background: "#fff",
-      backgroundRepeat: "repeat",
-      border: "2px solid #ddd"
-    });
 });
 
 $(function () {

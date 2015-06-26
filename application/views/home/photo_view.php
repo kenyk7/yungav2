@@ -1,5 +1,11 @@
-<header class="welcome-home">
-  <div class="container-fluid">
+<header class="welcome-home" style="height: 500px">
+  <div class="bg-3d">
+      <img alt="background" src="<?php echo $url_service.$data_photo->imageName; ?>" />
+      <img alt="effecto-1" src="<?php echo base_url(); ?>assets/images/effect1.png" />
+      <img alt="effecto-2" src="<?php echo base_url(); ?>assets/images/effect2.png" />
+      <img alt="effecto-nubes" src="<?php echo base_url(); ?>assets/images/nubes.png" />
+  </div>
+  <div class="container-fluid" style="margin-top: 50px">
     <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Santa Rosa de la Yunga" class="wow slideInDown" width="200" height="200"></a>
   </div><br>
 </header>
@@ -8,8 +14,13 @@
 <div class="container-fluid">
 	<div class="content-photo-view item">
       <div class="panel panel-default wow slideInUp">
-      	<div class="panel-heading">
-      	  <div class="pull-left heading-photo-data">
+        <div class="panel-body">
+            <figure class="figure-center">
+              <img src="<?php echo $url_service.$data_photo->imageName; ?>" alt="Yunga Fotos" class="img-responsive" width="auto" height="auto">
+            </figure>
+        </div>
+        <div class="panel-footer posr">
+            <div class="pull-left heading-photo-data">
             <span class="hidden-xxs"><i class="fa fa-calendar"></i> <?php echo date_convert($data_photo->imageDate); ?></span>
             <span class="left-10"><i class="fa fa-user"></i> <a href="#">Keny Romero</a></span>
           </div>
@@ -29,11 +40,6 @@
 
           </div>
           <div class="clearfix"></div>
-      	</div>
-        <div class="panel-body">
-            <figure class="figure-center">
-              <img src="<?php echo $url_service.$data_photo->imageName; ?>" alt="<?php echo $data_photo->imageTitulo; ?>" class="img-responsive" width="auto" height="auto">
-            </figure>
         </div>
       </div>
     </div>

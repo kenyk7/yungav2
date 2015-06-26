@@ -1,5 +1,11 @@
-
 <header class="welcome-home">
+  <div class="bg-3d">
+      <img alt="background" src="<?php echo base_url(); ?>assets/images/bg-1.jpg" />
+      <img alt="effecto-1" src="<?php echo base_url(); ?>assets/images/effect1.png" />
+      <img alt="effecto-2" src="<?php echo base_url(); ?>assets/images/effect2.png" />
+      <img alt="effecto-nubes" src="<?php echo base_url(); ?>assets/images/nubes.png" />
+  </div>
+  
   <div class="container-fluid">
     <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Santa Rosa de la Yunga" class="wow slideInDown" width="200" height="200"></a>
     <h1><strong class="welcome">Enviar una Foto</strong></h1>

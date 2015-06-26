@@ -1,4 +1,12 @@
 <section class="welcome-home">
+
+  <div class="bg-3d">
+      <img alt="background" src="<?php echo base_url(); ?>assets/images/bg-3d.jpg" />
+      <img alt="effecto-1" src="<?php echo base_url(); ?>assets/images/effect1.png" />
+      <img alt="effecto-2" src="<?php echo base_url(); ?>assets/images/effect2.png" />
+      <img alt="effecto-nubes" src="<?php echo base_url(); ?>assets/images/nubes.png" />
+  </div>
+
   <div class="container-fluid">
     <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Santa Rosa de la Yunga" class="wow slideInDown" width="200" height="200" ></a>
     <h1><span class="hidden-xs">Bienvenidos a </span><br><strong class="welcome">Santa Rosa de la Yunga</strong></h1>
@@ -17,9 +25,9 @@
         </div>
 
         <div class="photo-figure">
-          <a href="<?php echo $url_service.$data->imageName; ?>" title="Posted By: Keny Romero" data-gallery>
-            <img src="<?php echo $url_service_small.$data->imageName; ?>" alt="<?php echo $data->imageTitulo; ?>" class="img-responsive" width="700" height="auto" >
-            <div class="photo-expand"></div>
+          <a href="<?php echo $url_service.$data->imageName; ?>" title="By: Keny Romero" data-gallery>
+            <img src="<?php echo $url_service_small.$data->imageName; ?>" alt="<?php echo $data->imageTitulo; ?>" class="img-responsive" width="500" height="auto" >
+            <div class="photo-expand"><span class="fa fa-expand"></span></div>
           </a>
         </div>
 

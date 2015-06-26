@@ -105,7 +105,7 @@
 }
 .figure-center {
   text-align: center;
-  margin: -12px;
+  margin: -15px;
 }
 .figure-center img {
   display: inline-block;
@@ -135,14 +135,21 @@ h1 {
 .alert h4 {
   font-size: 20px;
 }
+.bg-3d {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: left;
+  z-index: -1;
+}
 .welcome-home {
   text-align: center;
-  background-image: url(../images/bg-1.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0 10px;
+  padding: 160px 0 20px;
   margin-bottom: 40px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8) inset;
   position: relative;
 }
 .welcome-home h1 {
@@ -317,9 +324,9 @@ h1 {
 }
 .photo-content .photo-figure .photo-expand span {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 47%;
-  font-size: 2em;
+  font-size: 1.3em;
 }
 .photo-content .photo-footer {
   position: absolute;
@@ -371,6 +378,7 @@ h1 {
 }
 #footer-page {
   margin-top: 10px;
+  margin-bottom: -20px;
   padding: 30px 0;
   background: #121212;
   color: #999;

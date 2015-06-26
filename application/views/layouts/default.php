@@ -11,12 +11,15 @@
   <meta name="description" content="<?php echo $this->layout->getDescripcion(); ?>">
   <!-- Bootstrap and css-->
   <link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.paper.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/css/animate.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/css/perspectiveRules.css" rel="stylesheet" />
+
   <link href="<?php echo base_url(); ?>assets/plugins/jasnyupload/jasny-bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/pnotify/pnotify.min.css">
   <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
   <link href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
   <link href="<?php echo base_url(); ?>assets/css/app.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>assets/css/animate.css" rel="stylesheet">
 
   <!-- icons -->
   <link rel="shortcut icon" type="image/ico" href="<?php echo base_url(); ?>favicon.ico">
@@ -59,7 +62,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand animated slideInLeft" href="<?php echo base_url(); ?>">Yunga</a>
+      <a class="navbar-brand wow slideInLeft" href="<?php echo base_url(); ?>">Yunga</a>
     </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -78,10 +81,10 @@
           </ul>
         </li>
       </ul>
-      <div class="navbar-form navbar-right animated slideInRight hidden">
+      <div class="navbar-form navbar-right wow slideInRight hidden">
         <a href="<?php echo base_url(); ?>submit" class="btn btn-primary">Enviar Foto </a>
       </div>
-      <div class="navbar-form navbar-right animated slideInRight">
+      <div class="navbar-form navbar-right wow slideInRight">
         <a data-toggle="modal" href='#modal-info' class="btn btn-info">Ver info</a>
       </div>
 
@@ -137,15 +140,15 @@
   <ol class="indicator"></ol>
 </div>
 
-<div class="progress" style="position: fixed; top: 0px; left: 0; right: 0; z-index: 999; border-radius: 0px;">
-  <div class="progress-bar progress-bar-success" style="width: 0;"></div>
+<div class="progress" style="position: fixed; top: 60px; left: 0; right: 0; z-index: 9999; border-radius: 0px;">
+  <div class="progress-bar progress-bar-success" style="width:0;"></div>
 </div>
 
 <footer id="footer-page">
   <div class="container-fluid wow slideInUp">
     <div class="row">
       <div class="col-sm-8">
-        &copy; 2015. Todos los Derechos Reservados. <em>PowerBy <strong>Keny Romero</strong></em>
+        &copy; 2015. Todos los Derechos Reservados. <em>By <strong>Keny Romero</strong></em>
       </div>
       <div class="col-sm-4 posr hidden-xs">
         <div class="social-footer text-right">
@@ -164,6 +167,7 @@
 <script src="<?php echo base_url(); ?>assets/js/isotope.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/typed.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/wow.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/jquery.logosDistort.min.js"></script>
 <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/okzoom.js"></script>
 <script src="<?php echo base_url(); ?>assets/plugins/pnotify/pnotify.min.js"></script>
@@ -171,13 +175,24 @@
 <script src="<?php echo base_url(); ?>assets/js/Kajax.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/app.js"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+var options = {
+        effectWeight: 2,
+        outerBuffer: 1.30,
+        elementDepth: 500,
+        smoothingMultiplier:1.5,
+        container: window
+    };
 
-  ga('create', 'UA-60298232-2', 'auto');
-  ga('send', 'pageview');
+$(".bg-3d").logosDistort(options);
+</script>
+<script>
+  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // ga('create', 'UA-60298232-2', 'auto');
+  // ga('send', 'pageview');
 </script>
 </body>
 </html>
