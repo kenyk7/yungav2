@@ -14,7 +14,7 @@
 </header>
 
 <section class="section-photo-content">
-<div class="container-fluid">
+<div class="container">
   <?php if(count($results ) == 0){ echo '<h3 class="text-center">Aun no hay resultados para esta Búsqueda</h3> <hr>';} ?>
   
   <div class="row isotope-content">
