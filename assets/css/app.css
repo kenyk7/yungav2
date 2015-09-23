@@ -214,8 +214,15 @@ h1 {
   right: 0px;
   border-top: 3px solid #0088ff;
 }
+.navbar-default {
+  background:rgba(100, 100, 100, 0.3);
+}
+.navbar-default .navbar-brand{
+  color:#fff; 
+}
 .navbar-default .navbar-nav > li > a {
   position: relative;
+  color:#fff;
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #0088ff;
