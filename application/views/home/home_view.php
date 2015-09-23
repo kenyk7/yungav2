@@ -9,12 +9,12 @@
 
   <div class="container-fluid">
     <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Santa Rosa de la Yunga" class="wow slideInDown" width="200" height="200" ></a>
-    <h1><span class="hidden-xs">Bienvenidos a </span><br><strong class="welcome">Santa Rosa de la Yunga</strong></h1>
+    <h1><span class="hidden-xs">Bienvenidos a </span><br><strong class="welcome">Santa Rosa de la Yunga</strong><br><i class="fa fa-arrow-down"></i></h1>
   </div>
 </section>
 
 <section class="section-photo-content">
-<div class="container-fluid">
+<div class="container">
   <div class="row isotope-content">
   
     <?php foreach ($data_ser as $data) { ?>
