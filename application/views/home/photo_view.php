@@ -1,4 +1,4 @@
-<header class="welcome-home" style="height: 500px">
+<header class="welcome-home" style="height: 640px">
   <div class="bg-3d">
       <img alt="background" src="<?php echo $url_service.$data_photo->imageName; ?>" />
       <img alt="effecto-1" src="<?php echo base_url(); ?>assets/images/effect1.png" />
@@ -11,7 +11,7 @@
 </header>
 
 <section>
-<div class="container-fluid">
+<div class="container">
 	<div class="content-photo-view item">
       <div class="panel panel-default wow slideInUp">
         <div class="panel-body">
